@@ -1,6 +1,6 @@
 package com.example.project_solo_72dcht21.activytiViews;
 
-import android.database.sqlite.SQLiteDatabase;
+
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -12,7 +12,6 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.example.project_solo_72dcht21.R;
-import com.example.project_solo_72dcht21.database.DataBase;
 import com.example.project_solo_72dcht21.fragment.TrangChu;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.example.project_solo_72dcht21.fragment.*;
