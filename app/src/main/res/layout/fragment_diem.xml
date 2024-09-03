@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgroundwhite_radius16"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_radius_top_lr"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="Quản lý điểm"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/radius_14_border_gray"
+        android:layout_margin="10dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        >
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Mã sinh viên:"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/txt_MaSV"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/radius_14_border_gray"
+        android:layout_margin="10dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        >
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Họ tên:"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/txt_HoTen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/radius_14_border_gray"
+        android:layout_margin="10dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp">
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Mã môn:"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/mamon_diem"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/radius_14_border_gray"
+        android:layout_margin="10dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp">
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Tên môn:"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/tenmon_diem"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/radius_14_border_gray"
+        android:layout_margin="10dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp">
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Điểm chuyên cần:"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/diemcc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Nhập số"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/radius_14_border_gray"
+        android:layout_margin="10dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp">
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Điểm giữa kỳ:"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/diemgk"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Nhập số"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/radius_14_border_gray"
+        android:layout_margin="10dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp">
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Điểm cuối kỳ:"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/diemck"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Nhập số"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/radius_14_border_gray"
+        android:layout_margin="10dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp">
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Học kỳ:"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/hocky_diem"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Nhập số"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/Clear_diem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="3"
+            android:alpha="0.6"
+            android:background="@drawable/bg_yellow_radius_10"
+            android:text="XÓA TRẮNG"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            app:backgroundTint="@color/gray" />
+
+        <Button
+            android:id="@+id/btnXacNhan_diem"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@drawable/bg_yellow_radius_10"
+            android:text="XÁC NHẬN"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            app:backgroundTint="@color/green" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/changeintosubdiem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xem danh sách điểm" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/id_diem"/>
+</LinearLayout>
